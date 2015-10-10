@@ -8,6 +8,6 @@
 
 * Erroneous release - no changes
 
-## Next
+## 0.3.0
 
 * Export `defer` function

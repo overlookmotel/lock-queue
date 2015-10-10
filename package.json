@@ -1,6 +1,6 @@
 {
   "name": "lock-queue",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple locking mechanism to serialize (queue) access to a resource",
   "main": "./lib/",
   "author": {
