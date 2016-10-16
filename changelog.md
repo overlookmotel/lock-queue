@@ -26,3 +26,4 @@
 * Travis CI runs on all branches (to enable `greenkeeper.io`)
 * Code comments
 * README
+* Update license
