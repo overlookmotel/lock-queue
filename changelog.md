@@ -11,3 +11,7 @@
 ## 0.3.0
 
 * Export `defer` function
+
+## Next
+
+* Fix: `.busy` starts as `false`
