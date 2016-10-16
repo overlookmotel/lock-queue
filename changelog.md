@@ -21,3 +21,4 @@
 * Refactor: Use Bluebird `.bind()` method
 * Update `bluebird` dependency to latest v2.x release
 * Update dev dependencies
+* Code comments
