@@ -23,5 +23,6 @@
 * Update dev dependencies
 * Replace `Makefile` with npm scripts
 * Travis CI runs on Node v6
+* Travis CI runs on all branches (to enable `greenkeeper.io`)
 * Code comments
 * README
