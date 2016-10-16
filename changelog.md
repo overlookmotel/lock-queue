@@ -12,7 +12,7 @@
 
 * Export `defer` function
 
-## Next
+## 1.0.0
 
 * Fix: `.busy` starts as `false`
 * `Deferred` object used internally converted to class with `.promise` attribute
