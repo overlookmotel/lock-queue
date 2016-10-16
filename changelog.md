@@ -16,5 +16,6 @@
 
 * Fix: `.busy` starts as `false`
 * `Deferred` object used internally converted to class with `.promise` attribute
+* `Locker` constructor is named function
 * Update `bluebird` dependency to latest v2.x release
 * Update dev dependencies
