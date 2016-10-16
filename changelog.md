@@ -21,6 +21,7 @@
 * Refactor: Use Bluebird `.bind()` method
 * Update `bluebird` dependency to latest v2.x release
 * Update dev dependencies
+* Tests
 * Replace `Makefile` with npm scripts
 * Travis CI runs on Node v6
 * Travis CI runs on all branches (to enable `greenkeeper.io`)
