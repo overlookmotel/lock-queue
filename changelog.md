@@ -15,3 +15,4 @@
 ## Next
 
 * Fix: `.busy` starts as `false`
+* Update dev dependencies
