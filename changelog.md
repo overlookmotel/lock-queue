@@ -24,6 +24,7 @@
 * Replace `Makefile` with npm scripts
 * Travis CI runs on Node v6
 * Travis CI runs on all branches (to enable `greenkeeper.io`)
+* Git ignore `.DS_Store`
 * Code comments
 * README
 * Update license
