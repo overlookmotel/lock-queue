@@ -22,5 +22,6 @@
 * Update `bluebird` dependency to latest v2.x release
 * Update dev dependencies
 * Replace `Makefile` with npm scripts
+* Travis CI runs on Node v6
 * Code comments
 * README
