@@ -38,8 +38,13 @@
     "generator"
   ],
   "scripts": {
-    "test": "make test",
-    "cover": "make cover"
+    "test": "npm run jshint && npm run test-main",
+    "jshint": "jshint lib test",
+    "test-main": "mocha --check-leaks --colors -t 10000 --reporter spec 'test/**/*.test.js'",
+    "cover": "npm run cover-main && rm -rf coverage",
+    "coveralls": "npm run cover-main && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "cover-main": "COVERAGE=true istanbul cover _mocha --report lcovonly -- -R spec 'test/**/*.test.js'",
+    "travis": "if [ $COVERAGE ]; then npm run coveralls; else npm run test; fi"
   },
   "engines": {
     "node": ">=0.10.0"
