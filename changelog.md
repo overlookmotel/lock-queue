@@ -15,4 +15,5 @@
 ## Next
 
 * Fix: `.busy` starts as `false`
+* Update `bluebird` dependency to latest v2.x release
 * Update dev dependencies
