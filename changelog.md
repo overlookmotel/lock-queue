@@ -30,6 +30,6 @@
 * README
 * Update license
 
-## Next
+## 1.0.1
 
 * Fix: Release lock before promise resolved
