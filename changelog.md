@@ -29,3 +29,7 @@
 * Code comments
 * README
 * Update license
+
+## Next
+
+* Fix: Release lock before promise resolved

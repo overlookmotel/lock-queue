@@ -185,5 +185,17 @@ describe('Locker', function() {
 				expect(order).to.deep.equal(['A', 'B', 'end', 'C']);
 			});
 		});
+
+		it('lock released before promise resolves', function() {
+			var l = this.l;
+
+			var p = l.lock(function() {});
+
+			expect(l.locked).to.be.true;
+
+			return p.then(function() {
+				expect(l.locked).to.be.false;
+			});
+		});
 	});
 });
