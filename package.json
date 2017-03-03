@@ -14,7 +14,7 @@
     "url": "https://github.com/overlookmotel/lock-queue/issues"
   },
   "dependencies": {
-    "bluebird": "^2.11.0",
+    "bluebird": "^3.5.0",
     "promisify-any": "^2.0.1"
   },
   "devDependencies": {
