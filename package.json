@@ -14,12 +14,12 @@
     "url": "https://github.com/overlookmotel/lock-queue/issues"
   },
   "dependencies": {
-    "bluebird": "^2.11.0",
+    "bluebird": "^3.5.0",
     "promisify-any": "^2.0.1"
   },
   "devDependencies": {
     "mocha": "^3.1.2",
-    "chai": "^3.5.0",
+    "chai": "^4.0.0",
     "jshint": "^2.9.3",
     "istanbul": "^0.4.5",
     "coveralls": "^2.11.4"
