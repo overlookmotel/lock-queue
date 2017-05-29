@@ -1,5 +1,7 @@
 # lock-queue.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/lock-queue.svg)](https://greenkeeper.io/)
+
 # Simple locking mechanism to serialize (queue) access to a resource
 
 ## Current status
